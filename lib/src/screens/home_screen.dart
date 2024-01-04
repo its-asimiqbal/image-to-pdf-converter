@@ -86,7 +86,6 @@ class _HomeScreenState extends State<HomeScreen> {
         ],
       ),
       drawer: Drawer(
-        
         shadowColor: Colors.white,
         backgroundColor: Colors.white,
         child: Column(
@@ -97,26 +96,27 @@ class _HomeScreenState extends State<HomeScreen> {
               width: double.infinity,
               color: const Color.fromARGB(255, 228, 56, 43),
               child: const Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    SizedBox(
-                      height: 40,
-                    ),
-                    Text(
-                      'Image to PDF',
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 25,
-                          fontWeight: FontWeight.bold),
-                    ),
-                     Text(
-                      'Powered by Asim Iqbal',
-                      style: TextStyle(
-                          color: Colors.white,
-                          // fontSize: 25,
-                          fontWeight: FontWeight.w500),
-                    )
-                  ]),
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  SizedBox(
+                    height: 40,
+                  ),
+                  Text(
+                    'Image to PDF',
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 25,
+                        fontWeight: FontWeight.bold),
+                  ),
+                  Text(
+                    'Powered by Asim Iqbal',
+                    style: TextStyle(
+                        color: Colors.white,
+                        // fontSize: 25,
+                        fontWeight: FontWeight.w500),
+                  )
+                ],
+              ),
             ),
           ],
         ),
